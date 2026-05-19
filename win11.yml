@@ -8,8 +8,8 @@ services:
       PASSWORD: "admin@123"
       RAM_SIZE: "4G"
       CPU_CORES: "4"
-      DISK_SIZE: "400G"
-      DISK2_SIZE: "100G"
+      DISK_SIZE: "64G"
+      DISK2_SIZE: "10G"
     devices:
       - /dev/kvm
       - /dev/net/tun
