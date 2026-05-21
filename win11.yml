@@ -10,7 +10,7 @@ services:
       CPU_CORES: "4"
       DISK_SIZE: "64G"
       DISK2_SIZE: "10G"
-      rdp: "true"  # 强制开启容器内RDP服务
+      rdp: "true"   # 强制开启容器内RDP服务
     devices:
       - /dev/kvm
       - /dev/net/tun
